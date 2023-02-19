@@ -1,0 +1,11 @@
+
+$themeColor: rgb(69, 173, 252);
+$topbarColor: rgb(1, 35, 61);
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
